@@ -118,9 +118,9 @@ const PROVINCE_DATA = {
       'අම්පාර දිස්ත්‍රික්කය / அம்பாறை மாவட்டம் / Ampara District'
     ],
     divisions: {
-      'ත්‍රීකුණාමලය දිස්ත්‍රික්කය / திருகோணமலை மாவட்டம் / Trincomalee District': ['ත්‍රිකුණාමලය නගරය සහ සතර මහා පත්තුව /	திருகோணமலை பட்டினமும் சூழலும் /	Trincomalee Town & Gravets', 'කන්තලේ / கந்தளாய் / Kantale', 'කින්නියා / கிண்ணியா / Kinniya', 'කුච්චවේලි / குச்சவெளி / Kuchchaveli', 'මුතූර් / மூதூர் / Muttur', 'පදවි ශ්‍රී පුර /	பதவி ஸ்ரீ புரம் /	Padavi Sri Pura', 'සේරුවිල / செருவில / Seruvila', 'තඹලගමුව /	தம்பலகாமம் /	Thambalagamuwa', 'ගෝමරන්කඩවල / கோமரங்கடவல / Gomarankadawala', 'වෙරුගල් /	வெருகல் /	Verukal ','මොරවැව /	மொறவெவ /	Morawewa',],
+      'ත්‍රීකුණාමලය දිස්ත්‍රික්කය / திருகோணமலை மாவட்டம் / Trincomalee District': ['ත්‍රිකුණාමලය නගරය සහ සතර මහා පත්තුව /	திருகோணமலை பட்டினமும் சூழலும் /	Trincomalee Town & Gravets', 'කන්තලේ / கந்தளாய் / Kantale', 'කින්නියා / கிண்ணியா / Kinniya', 'කුච්චවේලි / குச்சவெளி / Kuchchaveli', 'මුතූර් / மூதூர் / Muttur', 'පදවි ශ්‍රී පුර /	பதவிஸ்ரீபுர /	Padavi Sri Pura', 'සේරුවිල / சேருவில / Seruvila', 'තඹලගමුව /	தம்பலகாமம் /	Thambalagamuwa', 'ගෝමරන්කඩවල / கோமரங்கடவல / Gomarankadawala', 'වෙරුගල් /	வெருகல் /	Verukal ','මොරවැව /	மொறவெவ /	Morawewa',],
       'මඩකලපුව දිස්ත්‍රික්කය / மட்டக்களப்பு மாவட்டம் / Batticaloa District': ['කඩුවන්චිකුඩි /	களுவாஞ்சிக்குடி /	Kaluwanchikudy','කට්ටන්කුඩි / கட்டான்குடி / Kattankudy', 'කොරළයිපත්තු / கோறளைப்பற்று / Koralaipattu', 'කොරළයිපත්තු උතුර / கோறளைப்பற்று வடக்கு / Koralaipattu North', 'කොරළයිපත්තු දකුණ / கோறளைப்பற்று தெற்கு / Koralaipattu South','කෝරළේපත්තුව බටහිර /	கோறளைப்பற்று மேற்கு /	Koralaipattu West','කෝරළේපත්තුව මධ්‍යම /	கோறளைப்பற்று மத்திய	/ Koralaipattu Central', 'මන්මුනෙයි උතුර / மண்முனை வடக்கு / Manmunai North', 'මන්මුනෙයි බටහිර / மண்முனை மேற்கு / Manmunai West', 'මන්මුනෙයි නිරිතදිග / மண்முனை தெற்கு / Manmunai South west', 'පොරතිවුපත්තුව /	போரதீவுப்பற்று	/ Porativupattu','එරාවුර්පත්තුව /	ஏறாவூர்ப்பற்று /	Eravurpattu','මන්මුනෙයිපත්තුව /	மண்முனைப்பற்று /	Manmunaipattu','එරාවුර් නගරය /	ஏறாவூர் நகரம் /	Eravur Town'],
-      'අම්පාර දිස්ත්‍රික්කය / அம்பாறை மாவட்டம் / Ampara District': ['අම්පාර / அம்பாறை / Ampara', 'අක්කරයිපත්තුව / அக்கரைப்பற்று / Akkaraipattu', 'අලයඩිවෙම්බු / ஆலையடிவேம்பு / Alayadiwembu', 'දමන / தமன / Damana', 'දෙහිඅත්තකණ්ඩිය / தெய்வத்தகண்டிய / Dehiattakandiya', 'ඉරක්කාමම් / இறக்காமம் / Irakkamam', 'කල්මුණේ / கல்முனை / Kalmunai','කල්මුණේ උතුර /	கல்முனை வடக்கு /	Kalmunai North', 'කරයිතිව් / கரைத்தீவு / Karaitivu', 'ලාහුගල / லஹுகல / Lahugala', 'මහඔය / மகோயா / Mahaoya', 'නාවිතන්වැලි / நாவிதன்வெளி / Navithanveli', 'නින්දවූර් / நிந்தவூர் / Nintavur', 'පොතුවිල් / பொத்துவில் / Pottuvil', 'සායින්දමරුදු / சாய்ந்தமருது / Sainthamaruthu', 'සමන්තුරෙයි / சம்மாந்துறை / Sammanthurai', 'තිරුක්කෝවිල් / திருக்கோவில் / Thirukkovil', 'උහන / உஹன / Uhana', 'අඩ්ඩාලච්චේන /	அட்டாலச்சேனை	/ Addalaichenai', 'පදියතලාව /	பதியதலாவ /	Padiyathalawa']
+      'අම්පාර දිස්ත්‍රික්කය / அம்பாறை மாவட்டம் / Ampara District': ['අම්පාර / அம்பாறை / Ampara', 'අක්කරයිපත්තුව / அக்கரைப்பற்று / Akkaraipattu', 'අලයඩිවෙම්බු / ஆலையடிவேம்பு / Alayadiwembu', 'දමන / தமன / Damana', 'දෙහිඅත්තකණ්ඩිය / தெய்வத்தகண்டிய / Dehiattakandiya', 'ඉරක්කාමම් / இறக்காமம் / Irakkamam', 'කල්මුණේ / கல்முனை / Kalmunai','කල්මුණේ උතුර /	கல்முனை வடக்கு /	Kalmunai North', 'කරයිතිව් / காரைதீவு / Karaitivu', 'ලාහුගල / லாஹுகல / Lahugala', 'මහඔය / மகாஓய / Mahaoya', 'නාවිතන්වැලි / நாவிதன்வெளி / Navithanveli', 'නින්දවූර් / நிந்தவூர் / Nintavur', 'පොතුවිල් / பொத்துவில் / Pottuvil', 'සායින්දමරුදු / சாய்ந்தமருது / Sainthamaruthu', 'සමන්තුරෙයි / சம்மாந்துறை / Sammanthurai', 'තිරුක්කෝවිල් / திருக்கோவில் / Thirukkovil', 'උහන / உஹன / Uhana', 'අඩ්ඩාලච්චේන /	அட்டாளைச்சேனை	/ Addalaichenai', 'පදියතලාව /	பதியதலாவ /	Padiyathalawa']
     }
   },
   'වයඹ පළාත / வடமேற்கு மாகாணம் / North Western Province': {
@@ -734,16 +734,16 @@ export default function CombinedForm() {
                 </li>
                 <li style={{ marginTop: '12px' }}>
                   {isCompany
-                    ? <>සේවා යෝජකයින් පමණක් පිරවිය යුතුය.<br /><span style={{ fontSize: '12px', fontWeight: '500', color: '#334155' }}>தொழில் வழங்குநர்கள் மட்டுமே இதனை நிரப்ப வேண்டும். / Only employers should fill this.</span></>
-                    : <>ආබාධ සහිත  තැනැත්තන් පමණක් පිරවිය යුතුය.<br /><span style={{ fontSize: '12px', fontWeight: '500', color: '#334155' }}>இது மாற்றுத்திறனாளிகளால் மட்டுமே நிரப்பப்பட வேண்டும். / Only disabled persons should fill this.</span></>
+                    ? <>සේවා යෝජකයින් පමණක් පිරවිය යුතුය.<br /><span style={{ fontSize: '12px', fontWeight: '500', color: '#334155' }}>தொழில் வழங்குநர்கள் மட்டுமே இதனை நிரப்புதல் வேண்டும். / Only employers should fill this.</span></>
+                    : <>ආබාධ සහිත  තැනැත්තන්ගෙ තොරතුරු පමණක් පිරවිය යුතුය.<br /><span style={{ fontSize: '12px', fontWeight: '500', color: '#334155' }}>இது அங்கவீனமுற்ற நபர்களின் தகவல்கள் மாத்திரமே பூரணப்படுத்துதல் வேண்டும். / Only disabled persons should fill this.</span></>
                   }
                 </li>
-                <li style={{ marginTop: '12px' }}>රතු පාට තරු ලකුණ (<span style={{ color: '#dc2626' }}>*</span>) සඳහන් ස්ථාන අනිවාර්යයෙන් පිරවිය යුතුය.<br /><span style={{ fontSize: '12px', fontWeight: '500', color: '#334155' }}>சிவப்பு நட்சத்திரக் குறியீடு (<span style={{ color: '#dc2626' }}>*</span>) உள்ள இடங்களை கட்டாயமாக நிரப்ப வேண்டும். / Fields marked with a red star (<span style={{ color: '#dc2626' }}>*</span>) are mandatory.</span></li>
+                <li style={{ marginTop: '12px' }}>රතු පාට තරු ලකුණ (<span style={{ color: '#dc2626' }}>*</span>) සඳහන් ස්ථාන අනිවාර්යයෙන් පිරවිය යුතුය.<br /><span style={{ fontSize: '12px', fontWeight: '500', color: '#334155' }}>சிவப்பு நட்சத்திரக் குறியீடு (<span style={{ color: '#dc2626' }}>*</span>) உள்ள இடங்களை கட்டாயமாக நிரப்புதல் வேண்டும். / Fields marked with a red star (<span style={{ color: '#dc2626' }}>*</span>) are mandatory.</span></li>
                 {!isCompany && (
                   <li style={{ marginTop: '12px' }}>
                     වයස අවුරුදු 18 - 59 අතර පුද්ගලයින් පමණක් පිරවිය යුතුය.<br />
                     <span style={{ fontSize: '12px', fontWeight: '500', color: '#334155' }}>
-                      18 - 59 வயதுக்குட்பட்டவர்கள் மட்டுமே இதனை நிரப்ப வேண்டும். / Only those between 18 - 59 years of age should fill this.
+                      18 - 59 வயதுக்குட்பட்டவர்கள் மாத்திரமே இதனை நிரப்புதல் வேண்டும். / Only those between 18 - 59 years of age should fill this.
                     </span>
                   </li>
                 )}
@@ -763,7 +763,7 @@ export default function CombinedForm() {
           {/* ══════════ COMPANY FORM  Form══════════ */}
           {isCompany && (<>
 
-            <p style={styles.sectionTitle}>📍 ස්ථානීය  තොරතුරු · வசிப்பிட விபரங்கள்  · Location Details</p>
+            <p style={styles.sectionTitle}>📍 ස්ථානීය  තොරතුරු · வதிவிட விபரங்கள்  · Location Details</p>
             <F si="පළාත *" ta="மாகாணம் *" en="Province *">
               <select name="province" value={companyData.province} onChange={handleCompanyChange} style={styles.sel}>
                 <option value="">-- පළාත / மாகாணம் / Province --</option>
@@ -798,11 +798,11 @@ export default function CombinedForm() {
 
             <F si="ආයතනයේ ස්වභාවය *" ta="நிறுவனத்தின் வகை *" en="Nature of Institution *">
               <select name="companyNature" value={companyData.companyNature} onChange={handleCompanyChange} style={styles.sel}>
-                <option value="">-- තෝරන්න / தேர்வு செய்யவும் / Select --</option>
+                <option value="">-- තෝරන්න / தெரிவு செய்யவும் / Select --</option>
                 <option value="Private">පෞද්ගලික / தனியார் / Private</option>
                 <option value="Semi-Government">අර්ධ රාජ්‍ය / அரை அரசாங்கம் / Semi-Government</option>
-                <option value="Business/Commercial">වෙළඳ ව්‍යාපාරික / வர்த்தகம் / Business/Commercial</option>
-                <option value="Other">වෙනත් / மற்றவை / Other</option>
+                <option value="Business/Commercial">වෙළඳ ව්‍යාපාරික / வியாபாரம் / Business/Commercial</option>
+                <option value="Other">වෙනත් / ஏனையவை / Other</option>
               </select>
               {companyData.companyNature === 'Other' && (
                 <input type="text" name="companyNatureOther" value={companyData.companyNatureOther} onChange={handleCompanyChange}
@@ -830,33 +830,33 @@ export default function CombinedForm() {
             {/* ✅ FIX 1: Field/Sector — completely separate from vacancies */}
             <F si="ආයතනයේ ක්ෂේත්‍රය *" ta="நிறுவனத்தின் துறை *" en="Company Field / Sector *">
               <select name="field" value={companyData.field} onChange={handleCompanyChange} style={styles.sel}>
-                <option value="">-- තෝරන්න / தேர்வு செய்யவும் / Select --</option>
+                <option value="">-- තෝරන්න / தெரிவு செய்யவும் / Select --</option>
                 <option value="Garments">ඇඟලුම් / ஆடை / Garments</option>
                 <option value="Beauty Salon">රූපලාවන්‍යාගාර / அழகு நிலையம் / Beauty Salon</option>
                 <option value="Hotels">හෝටල් / உணவகம் / Hotels</option>
-                <option value="IT">තොරතුරු තාක්ෂණය / தகவல் தொழில்நுட்பம் / IT</option>
+                <option value="IT">තොරතුරු තාක්ෂණය / தகவல் தொழில் நுட்பம் / IT</option>
                 <option value="Business">ව්‍යාපාර / வணிகம் / Business</option>
                 <option value="Agriculture">කෘෂිකර්මාන්තය / விவசாயம் / Agriculture</option>
                 <option value="Construction">ඉදිකිරීම් / கட்டுமானம் / Construction</option>
                 <option value="Healthcare">සෞඛ්‍ය සේවා / சுகாதார சேவை / Healthcare</option>
                 <option value="Education">අධ්‍යාපනය / கல்வி / Education</option>
-                <option value="Other">වෙනත් / மற்றவை / Other</option>
+                <option value="Other">වෙනත් / ஏனையவை / Other</option>
               </select>
               {companyData.field === 'Other' && (
                 <input type="text" name="fieldOther" value={companyData.fieldOther} onChange={handleCompanyChange}
                   style={styles.inpOther} maxLength={100}
-                  placeholder="වෙනත් ක්ෂේත්‍රය / பிற துறை / Specify field..." autoComplete="off" />
+                  placeholder="වෙනත් ක්ෂේත්‍රය / ஏனைய துறை / Specify field..." autoComplete="off" />
               )}
             </F>
 
 
             <hr style={styles.divider} />
-            <p style={styles.sectionTitle}>📊 දැනට පවතින සේවක ධාරිතාව · தற்போதைய பணியாளர் திறன் · Current Employee Capacity</p>
+            <p style={styles.sectionTitle}>📊 දැනට පවතින සේවක ධාරිතාව · தற்போது நடைமுறையிலுள்ள பணியாளர் திறன் · Current Employee Capacity</p>
 
             <F si="සේවක ගණන *" ta="ஊழியர்களின் எண்ணிக்கை *" en="Total Number of Employees *">
               <input type="number" name="totalEmployees" value={companyData.totalEmployees} onChange={handleCompanyChange} style={styles.inp} min="0" placeholder="0" autoComplete="off" />
             </F>
-            <F si="ස්ථීර රැකියා කීයද *" ta="நிரந்தர வேலைவாய்ப்புகள் எத்தனை *" en="How many Permanent Jobs *">
+            <F si="ස්ථීර රැකියා කීයද *" ta="நிரந்தர வேலை வாய்ப்புகள் எத்தனை *" en="How many Permanent Jobs *">
               <input type="number" name="permanentEmployees" value={companyData.permanentEmployees} onChange={handleCompanyChange} style={styles.inp} min="0" placeholder="0" autoComplete="off" />
             </F>
             <F si="තාවකාලික කීයද *" ta="தற்காலிக வேலைவாய்ப்புகள் எத்தனை *" en="How many Temporary Jobs *">
@@ -885,7 +885,7 @@ export default function CombinedForm() {
 
             {companyData.hasJob === 'Yes' && (
               <>
-                <F si="පුරප්පාඩු මොනවාද" ta="காலியிட விவரம்" en="What are the Vacancies?">
+                <F si="පුරප්පාඩු මොනවාද" ta="பதவி வெற்றிட விவரம்" en="What are the Vacancies?">
                   <textarea
                     name="vacancyDescription"
                     value={companyData.vacancyDescription}
@@ -893,13 +893,13 @@ export default function CombinedForm() {
                     style={styles.ta}
                     rows={3}
                     maxLength={300}
-                    placeholder="උදා: කළමනාකරු, අලෙවිකරු, රියදුරු... / எ.கா: மேலாளர், காசாளர், ஓட்டுனர்... / e.g. Manager, Cashier, Driver..."
+                    placeholder="උදා: කළමනාකරු, අලෙවිකරු, රියදුරු... / எ.கா: முகாமையாளர், காசாளர், சாரதி... / e.g. Manager, Cashier, Driver..."
                     autoComplete="off"
                   />
                   <p className="hint">{(companyData.vacancyDescription || '').length}/300</p>
                 </F>
 
-                <F si="පුරප්පාඩු ගණන" ta="காலியிடங்கள் எண்ணிக்கை" en="Number of Vacancies">
+                <F si="පුරප්පාඩු ගණන" ta=" பதவி  வெற்றிடங்களின் எண்ணிக்கை" en="Number of Vacancies">
                   <input type="text" name="vacancies" value={companyData.vacancies} onChange={handleCompanyChange} style={styles.inp} maxLength={100} autoComplete="off" />
 
                 </F>
@@ -919,12 +919,12 @@ export default function CombinedForm() {
               {companyData.ageCategory === 'Other' && (
                 <input type="text" name="ageCategoryOther" value={companyData.ageCategoryOther} onChange={handleCompanyChange}
                   style={styles.inpOther} maxLength={50}
-                  placeholder="වයස් කාණ්ඩය සඳහන් කරන්න / வயது வரம்பை குறிப்பிடவும் / Specify age range..." autoComplete="off" />
+                  placeholder="වයස් කාණ්ඩය සඳහන් කරන්න / வயது பிரிவைக் குறிப்பிடவும் / Specify age range..." autoComplete="off" />
               )}
             </F>
             <F si="ස්ත්‍රී පුරුෂ භාවය *" ta="பாலினம் *" en="Gender *">
               <select name="gender" value={companyData.gender} onChange={handleCompanyChange} style={styles.sel}>
-                <option value="">-- තෝරන්න / தேர்வு செய்யவும் / Select --</option>
+                <option value="">-- තෝරන්න / தெரிவு செய்யவும் / Select --</option>
                 <option value="Male">පිරිමි / ஆண் / Male</option>
                 <option value="Female">ස්ත්‍රී / பெண் / Female</option>
                 <option value="Any">වෙනත් / எவரும் / Any</option>
@@ -975,12 +975,12 @@ export default function CombinedForm() {
                 {(companyData.disability || []).includes('Other') && (
                   <input type="text" name="disabilityOther" value={companyData.disabilityOther || ''} onChange={handleCompanyChange}
                     style={styles.inpOther} maxLength={100}
-                    placeholder="ආබාධතා වර්ගය සඳහන් කරන්න / இயலாமை வகையை குறிப்பிடவும் / Specify disability type..."
+                    placeholder="ආබාධතා වර්ගය සඳහන් කරන්න / அங்கவீனத்தின் வகையை குறிப்பிடவும் / Specify disability type..."
                     autoComplete="off" />
                 )}
                 {(companyData.disability || []).length > 0 && (
                   <p className="hint" style={{ color: '#166534', marginTop: '10px', fontWeight: '700', fontSize: '13px' }}>
-                    ✅ තෝරාගත් / தேர்ந்தெடுக்கப்பட்டவை / Selected ({(companyData.disability || []).length}): {(companyData.disability || []).join(' · ')}
+                    ✅ තෝරාගත් / தெரிவு செய்யப்பட்டவை / Selected ({(companyData.disability || []).length}): {(companyData.disability || []).join(' · ')}
                   </p>
                 )}
               </div>
@@ -1010,7 +1010,7 @@ export default function CombinedForm() {
               ]} />
             </F>
             {companyData.supplyTransport === 'Yes' && (
-              <F si="ප්‍රවාහන පහසුකම් සපයන දුර ප්‍රමාණය *" ta="போக்குவரத்து வரம்பு *" en="Transport Limit *">
+              <F si="ප්‍රවාහන පහසුකම් සපයන දුර ප්‍රමාණය *" ta="போக்குவரத்து வசதிகள் வழங்கப்படும் தூரத்தின் அளவு*" en="Transport Limit *">
                 <input type="text" name="transportLimit" value={companyData.transportLimit} onChange={handleCompanyChange} style={styles.inp} maxLength={100} placeholder="e.g. 20km radius" autoComplete="off" />
               </F>
             )}
@@ -1022,7 +1022,7 @@ export default function CombinedForm() {
             </F>
             <F si="නිල ඇඳුම් *" ta="சீருடைகள் *" en="Uniforms *">
               <RadioGroup name="supplyClothes" value={companyData.supplyClothes} onChange={handleCompanyChange} options={[
-                { value: 'Yes', si: 'සපයනු ලැබේ', ta: 'ஆம', en: 'Yes' },
+                { value: 'Yes', si: 'සපයනු ලැබේ', ta: 'ஆம்', en: 'Yes' },
                 { value: 'No', si: 'සපයනු නොලැබේ', ta: 'இல்லை', en: 'No' },
               ]} />
             </F>
@@ -1110,7 +1110,7 @@ export default function CombinedForm() {
                 </p>
               )}
             </F>
-            <F si="2026/05/01 දිනට වයස *" ta="2026/05/01 நிலவரப்படி வயது *" en="Age as of 2026/05/01 *">
+            <F si="2026/05/01 දිනට වයස *" ta="2026/05/01 ஆம் திகதிய வயது *" en="Age as of 2026/05/01 *">
               <input type="number" name="age" value={personData.age} onChange={handlePersonChange} style={styles.inp} min="0" max="120" placeholder="උදා: 30 / எ.கா: 30 / e.g. 30" autoComplete="off" />
               {personData.age && (personData.age < 18 || personData.age > 59) && (
                 <p style={{ color: '#ef4444', fontSize: '13px', marginTop: '6px', fontWeight: 'bold' }}>
@@ -1120,7 +1120,7 @@ export default function CombinedForm() {
             </F>
             <F si="ස්ත්‍රී පුරුෂ භාවය *" ta="பாலினம் *" en="Gender *">
               <select name="gender" value={personData.gender} onChange={handlePersonChange} style={styles.sel}>
-                <option value="">-- තෝරන්න / தேர்வு செய்யவும் / Select --</option>
+                <option value="">-- තෝරන්න / தெரிவு செய்யவும் / Select --</option>
                 <option value="Male">පිරිමි / ஆண் / Male</option>
                 <option value="Female">ස්ත්‍රී / பெண் / Female</option>
                 <option value="Other">වෙනත් / மற்றவை / Other</option>
@@ -1129,7 +1129,7 @@ export default function CombinedForm() {
 
             <F si="භාෂාව *" ta="மொழி *" en="Language *">
               <select name="language" value={personData.language} onChange={handlePersonChange} style={styles.sel}>
-                <option value="">-- තෝරන්න / தேர்வு செய்யவும் / Select --</option>
+                <option value="">-- තෝරන්න / தெரிவு செய்யவும் / Select --</option>
                 <option value="සිංහල">සිංහල / சிங்களம் / Sinhala</option>
                 <option value="தமிழ்">දෙමල  / தமிழ் / Tamil</option>
                 <option value="English">ඉංග්‍රීසි / ஆங்கிலம் / English</option>
@@ -1139,11 +1139,11 @@ export default function CombinedForm() {
             <F si="හැඳුනුම්පත් අංකය *" ta="அடையாள அட்டை எண் *" en="ID Number *">
               <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
                 <select name="idType" value={personData.idType} onChange={handlePersonChange} style={{ ...styles.sel, flex: '1', minWidth: '160px' }}>
-                  <option value="">-- හැඳුනුම්පත් වර්ගය / அடையாள வகை / ID Type --</option>
+                  <option value="">-- හැඳුනුම්පත් වර්ගය / அடையாள அட்டை வகை / ID Type --</option>
                   <option value="NIC">ජාතික හැඳුනුම්පත / தேசிய அடையாள அட்டை / NIC</option>
-                  <option value="Passport">ගමන් බලපත්‍රය / கடவுச்சீட்டு / Passport</option>
-                  <option value="Driving License">රියදුරු බලපත්‍රය / ஓட்டுநர் உரிமம் / Driving License</option>
-                  <option value="Other">වෙනත් / Other</option>
+                  <option value="Passport">ගමන් බලපත්‍රය / கடவுச் சீட்டு / Passport</option>
+                  <option value="Driving License">රියදුරු බලපත්‍රය / சாரதி உரிமப் பத்திரம் / Driving License</option>
+                  <option value="Other">වෙනත් /ஏனையவை / Other</option>
                 </select>
                 <input type="text" name="idNo" value={personData.idNo} onChange={handlePersonChange} placeholder="ID Number" style={{ ...styles.inp, flex: '1', minWidth: '140px' }} maxLength={20} autoComplete="off" />
               </div>
@@ -1157,7 +1157,7 @@ export default function CombinedForm() {
                 { value: 'No', si: 'නැත', ta: 'இல்லை', en: 'No' },
               ]} />
             </F>
-            <F si="ආබාධිත දීමනාව ලැබේද? *" ta="ஊனமுற்றோர் கொடுப்பனவு கிடைக்கிறதா? *" en="Do you receive a disability allowance? *">
+            <F si="ආබාධිත දීමනාව ලැබේද? *" ta="அங்கவீனமுற்றோர் கொடுப்பனவு கிடைக்கிறதா? *" en="Do you receive a disability allowance? *">
               <RadioGroup name="receivesAllowance" value={personData.receivesAllowance} onChange={handlePersonChange} options={[
                 { value: 'Yes', si: 'ඔව්', ta: 'ஆம்', en: 'Yes' },
                 { value: 'No', si: 'නැත', ta: 'இல்லை', en: 'No' },
@@ -1216,7 +1216,7 @@ export default function CombinedForm() {
                 )}
                 {(personData.disability || []).length > 0 && (
                   <p className="hint" style={{ color: '#166534', marginTop: '10px', fontWeight: '700', fontSize: '13px' }}>
-                    ✅ තෝරාගත් / தேர்ந்தெடுக்கப்பட்டவை / Selected ({(personData.disability || []).length}): {(personData.disability || []).join(' · ')}
+                    ✅ තෝරාගත් / தெரிவு செய்யப்பட்டவை / Selected ({(personData.disability || []).length}): {(personData.disability || []).join(' · ')}
                   </p>
                 )}
               </div>
@@ -1224,19 +1224,19 @@ export default function CombinedForm() {
 
             <F si="සුදුසුකම් *" ta="கல்வித் தகைமைகள் *" en="Qualifications *">
               <select name="qualification" value={personData.qualification} onChange={handlePersonChange} style={styles.sel} required>
-                <option value="">-- තෝරන්න / தேர்வு செய்யவும் / Select --</option>
-                <option value="Education">අධ්‍යාපන සුදුසුකම් / கல்வித் தகுதி / Education Level</option>
+                <option value="">-- තෝරන්න / தெரிவு செய்யவும் / Select --</option>
+                <option value="Education">අධ්‍යාපන සුදුසුකම් / கல்வித் தகைமை / Education Level</option>
                 <option value="Vocational Training">වෘත්තීය පුහුණු / தொழில்சார் பயிற்சி / Vocational Training</option>
                 <option value="No Formal Education">විධිමත් අධ්‍යාපනයක් නැත / முறையான கல்வி இல்லை / No Formal Education</option>
-                <option value="Other">වෙනත් / மற்றவை / Other</option>
+                <option value="Other">වෙනත් / ஏனையவை / Other</option>
               </select>
               {personData.qualification && (
                 <input type="text" name="qualificationOther" value={personData.qualificationOther} onChange={handlePersonChange}
                   style={styles.inpOther} maxLength={150}
                   placeholder={
-                    personData.qualification === 'Education' ? "O/L , A/L හෝ ඉහලම සුදුසුකම / O/L , A/L , கல்வித் தகுதி / O/L, A/L or Highest Qualification..." :
+                    personData.qualification === 'Education' ? "O/L , A/L හෝ ඉහලම සුදුසුකම / O/L , A/L , கல்வித் தகைமை / O/L, A/L or Highest Qualification..." :
                       personData.qualification === 'Vocational Training' ? "පුහුණු නාමය/ආයතනය / பயிற்சின் பெயர்/நிறுவனம் / Programme name/Institute..." :
-                        "වැඩි විස්තර / மேலதிக விவரங்கள் / More details..."
+                        "වැඩි විස්තර / மேலதிக விபரங்கள் / More details..."
                   }
                   autoComplete="off" />
               )}
@@ -1253,12 +1253,12 @@ export default function CombinedForm() {
               <>
                 <F si="රැකියාවේ ස්වභාවය *" ta="வேலையின் தன்மை *" en="Nature of Employment *">
                   <select name="employmentNature" value={personData.employmentNature} onChange={handlePersonChange} style={styles.sel}>
-                    <option value="">-- තෝරන්න / தேர்வு செய்யவும் / Select --</option>
-                    <option value="Government">රජය / அரசு / Government</option>
+                    <option value="">-- තෝරන්න / தெரிவு செய்யவும் / Select --</option>
+                    <option value="Government">රජය / அரச / Government</option>
                     <option value="Semi-Government">අර්ධ රාජ්‍ය / அரை அரசாங்கம் / Semi-Government</option>
                     <option value="Private">පෞද්ගලික / தனியார் / Private</option>
-                    <option value="Self-Employed">ස්වයං රැකියාද / சுயதொழில் / Self-Employed</option>
-                    <option value="Daily-Wage">දෛනික වැටුප් සහිත රැකියාවක් / தினசரி சம்பளம் / Daily Wage Job</option>
+                    <option value="Self-Employed">ස්වයං රැකියාද / சுய தொழில் / Self-Employed</option>
+                    <option value="Daily-Wage">දෛනික වැටුප් සහිත රැකියාවක් / நாளாந்த சம்பளம் / Daily Wage Job</option>
                   </select>
                 </F>
 
@@ -1322,13 +1322,13 @@ export default function CombinedForm() {
                 )}
                 {(personData.field || []).length > 0 && (
                   <p className="hint" style={{ color: '#166534', marginTop: '10px', fontWeight: '700', fontSize: '13px' }}>
-                    ✅ තෝරාගත් / தேர்ந்தெடுக்கப்பட்டவை / Selected ({(personData.field || []).length}): {(personData.field || []).join(' · ')}
+                    ✅ තෝරාගත් / தெரிவு  செய்யப் பெற்றவை / Selected ({(personData.field || []).length}): {(personData.field || []).join(' · ')}
                   </p>
                 )}
               </div>
             </F>
 
-            <F si="තෝරන ක්ෂේත්‍ර වලට අත්දැකීම් තියෙනවද? *" ta="தேர்ந்தெடுக்கப்பட்ட துறைகளில் அனுபவம் உள்ளதா? *" en="Do you have experience in the selected fields? *">
+            <F si="තෝරන ක්ෂේත්‍ර වලට අත්දැකීම් තියෙනවද? *" ta=" தெரிவு செய்யப்பட்ட துறைகளில் அனுபவம் உள்ளதா? *" en="Do you have experience in the selected fields? *">
               <RadioGroup name="hasFieldExperience" value={personData.hasFieldExperience} onChange={handlePersonChange} options={[
                 { value: 'Yes', si: 'ඔව්', ta: 'ஆம்', en: 'Yes' },
                 { value: 'No', si: 'නැත', ta: 'இல்லை', en: 'No' },
@@ -1351,10 +1351,10 @@ export default function CombinedForm() {
 
                 <F si="ඒ සඳහා සුදුසුකම් *" ta="அதற்கான தகைமைகள் *" en="Qualifications for it *">
                   <select name="skillsQualificationType" value={personData.skillsQualificationType} onChange={handlePersonChange} style={styles.sel} required>
-                    <option value="">-- තෝරන්න / தேர்வு செய்யவும் / Select --</option>
+                    <option value="">-- තෝරන්න / தெரிவு செய்யவும் / Select --</option>
                     <option value="Professional">වෘත්තීයමය / தொழில்முறை / Professional</option>
                     <option value="Educational">අධ්‍යාපනික / கல்வி / Educational</option>
-                    <option value="Other">වෙනත් / மற்றவை / Other</option>
+                    <option value="Other">වෙනත් / ஏனையவை / Other</option>
                     <option value="Other">නැත / இல்லை / No</option>
                   </select>
                   {personData.skillsQualificationType === 'Other' && (
@@ -1382,7 +1382,7 @@ export default function CombinedForm() {
             <button type="button" onClick={handleSubmit} disabled={uploading || !complete} className="sbtn"
               style={{ ...styles.submitBtn, ...((uploading || !complete) ? styles.submitBtnDisabled : {}) }}>
               {uploading
-                ? <span><L si="ඉදිරිපත් කරමින්..." ta="சமர்ப்பிக்கிறது..." en="Submitting..." color="#fff" /></span>
+                ? <span><L si="ඉදිරිපත් කරමින්..." ta="சமர்ப்பிக்கப்பட்டுக்கொண்டிருக்கின்றது..." en="Submitting..." color="#fff" /></span>
                 : <><Send style={{ width: 18, height: 18 }} /><span><L si="ඉදිරිපත් කරන්න" ta="சமர்ப்பிக்கவும்" en="Submit" color="#fff" /></span></>}
             </button>
           </div>
