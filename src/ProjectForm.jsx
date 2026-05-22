@@ -1,50 +1,53 @@
 import { useState, useCallback, useEffect } from 'react';
 import { db } from './firebase';
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
-import headerImg from './assests/Gemini_Generated_Image_hd3vqrhd3vqrhd3v.png';
 import logoImg from './assests/logo.png';
-import img1 from './assests/1.jpg';
-import img2 from './assests/2.jpg';
-import img3 from './assests/3.jpg';
-import img4 from './assests/4.jpg';
-import img5 from './assests/5.jpg';
-import img6 from './assests/6.jpg';
-import img7 from './assests/7.jpg';
+import img1 from './assests/1.png';
+import img2 from './assests/2.png';
+import img3 from './assests/3.png';
+import img4 from './assests/4.png';
+import img5 from './assests/5.png';
 
-const FloatingBackground = () => {
-  const images = [img1, img2, img3, img4, img5, img6, img7];
-  const positions = [
-    { top: '5%', left: '2%', rotate: '-10deg' },
-    { top: '15%', right: '4%', rotate: '15deg' },
-    { top: '45%', left: '3%', rotate: '10deg' },
-    { top: '65%', right: '2%', rotate: '-12deg' },
-    { top: '85%', left: '5%', rotate: '8deg' },
-    { top: '30%', left: '85%', rotate: '-15deg' },
-    { top: '75%', left: '1%', rotate: '5deg' },
-  ];
+const HeaderSlider = () => {
+  const images = [img1, img2, img3, img4, img5];
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    // Show first image for 8 seconds, others for 4 seconds
+    const duration = current === 0 ? 8000 : 4000;
+    const timer = setTimeout(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, duration);
+    return () => clearTimeout(timer);
+  }, [current]);
 
   return (
-    <div style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', zIndex: 0, pointerEvents: 'none', overflow: 'hidden', opacity: 0.25 }}>
-      {positions.map((pos, i) => (
+    <>
+      {/* 5 Photos Transitioning - Snappy slide right effect */}
+      {images.map((img, i) => (
         <img
           key={i}
-          src={images[i % images.length]}
-          alt=""
+          src={img}
+          alt={`slide-${i}`}
           style={{
             position: 'absolute',
-            width: '130px',
-            height: 'auto',
-            borderRadius: '12px',
-            border: '8px solid white',
-            outline: '1px solid rgba(124, 0, 0, 0.12)',
-            boxShadow: '0 8px 16px rgba(0,0,0,0.1)',
-            transition: 'transform 0.5s ease-out',
-            ...pos,
-            transform: `rotate(${pos.rotate})`
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: i === 0 ? 'contain' : 'cover',
+            objectPosition: i === 0 ? 'center' : 'center 20%', // To focus slightly more on faces when cropped
+            opacity: current === i ? 1 : 0,
+            transform: current === i ? 'translateX(0) scale(1)' : 'translateX(40px) scale(0.98)',
+            transition: 'all 1s cubic-bezier(0.4, 0, 0.2, 1)',
+            zIndex: 0,
+            backgroundColor: i === 0 ? '#8aada9' : 'transparent',
           }}
         />
       ))}
-    </div>
+
+
+    </>
   );
 };
 
@@ -244,18 +247,9 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    minHeight: '340px'
+    minHeight: '480px'
   },
-  headerImg: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    width: '100%',
-    height: '100%',
-    objectFit: 'cover',
-    opacity: 1,
-    zIndex: 0
-  },
+
   logo: {
     position: 'absolute',
     top: '20px',
@@ -453,8 +447,8 @@ const DisabilityCheckboxGroup = ({ selected, onChange, options }) => (
 
 const selStyle = (off) => ({ ...styles.sel, background: off ? '#F3F4F6' : '#fff', color: off ? '#9CA3AF' : '#1f2937', cursor: off ? 'not-allowed' : 'pointer' });
 
-const COMPANY_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyusnptuwh-dvRV-YfsRfXA5XgqYRcxV2nxC76ayFDNSupkFd4wCEcYC2p7Uy630E0whQ/exec';
-const PERSON_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwgDD9R5LcN5TzGTKC0Xb40MPcoBhbi3fzBNJdQkIyOxKqEXqJOcBJUBPzydi-s5o6c/exec';
+const COMPANY_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyExKSUAZ5qBfnXNqWi-AZxpEhZygMQxrwgD76Jr6B8cXdSI7w9Nyz8jodM6IU-GDKaeA/exec';
+const PERSON_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzXUE3ew-h4Iu6qOT-1ej4rANmOmPfx5Ak0FiE9nGn1TsRfJqJmNQj3EPDIv7sZXv6O/exec';
 
 const defaultCompany = { province: '', district: '', division: '', officeName: '', officerName: '', contact: '', email: '', whatsapp: '', hasJob: '', field: '', fieldOther: '', vacancies: '', vacancyDescription: '', pay: '', epfEtf: '', hasTrainee: '', supplyTransport: '', transportLimit: '', supplyFood: '', supplyClothes: '', ageCategory: '', ageCategoryOther: '', gender: '', disability: [], disabilityOther: '', searchVisibility: '', companyNature: '', companyNatureOther: '', registrationNo: '', totalEmployees: '', permanentEmployees: '', temporaryEmployees: '', femaleEmployees: '', maleEmployees: '', remarks: '' };
 const defaultPerson = { province: '', district: '', division: '', name: '', address: '', language: '', idType: '', idTypeOther: '', idNo: '', dob: '', qualification: '', qualificationOther: '', phone: '', phone2: '', disability: [], disabilityOther: '', field: [], fieldOther: '', gender: '', age: '', caretakerName: '', caretakerMobile: '', caretakerMobile2: '', villageOfficerName: '', villageOfficerWhatsapp: '', gnDivision: '', receivesAllowance: '', receivesAswasuma: '', currentlyEmployed: '', currentEmploymentDetails: '', employmentNature: '', epfEtfPaid: '', hasFieldExperience: '', experienceYears: '', experienceInstitution: '', otherSkills: '', skillsQualificationType: '', skillsQualificationOther: '', remarks: '' };
@@ -638,7 +632,6 @@ export default function CombinedForm() {
 
   return (
     <div style={styles.container}>
-      <FloatingBackground />
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800&display=swap');
         *,*::before,*::after{box-sizing:border-box;}
@@ -688,16 +681,8 @@ export default function CombinedForm() {
       <div style={styles.card} className="form-card">
         {/* HEADER */}
         <div style={styles.header} className="header-box">
-          <img src={headerImg} alt="Header Background" style={styles.headerImg} />
-          <img src={logoImg} alt="Logo" className="logo-img" style={{
-            position: 'absolute',
-            top: '10px',
-            left: '50%',
-            transform: 'translateX(-50%)',
-            height: '140px',
-            zIndex: 10,
-            filter: 'drop-shadow(0 4px 12px rgba(159, 132, 132, 0.6))'
-          }} />
+          <HeaderSlider />
+
           <div style={styles.headerOverlay} />
           <div style={styles.headerContent}></div>
         </div>
